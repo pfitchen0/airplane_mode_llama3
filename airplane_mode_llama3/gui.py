@@ -1,7 +1,7 @@
 from typing import Callable
 import mesop as me
 
-from utils import Message, Role
+from .utils import Message, Role
 
 _USER_BUBBLE_COLOR = me.theme_var("secondary-container")
 

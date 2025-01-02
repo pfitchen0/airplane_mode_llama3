@@ -23,7 +23,7 @@ from pathlib import Path
 # For loading the model only:
 from tiktoken.load import load_tiktoken_bpe
 
-from utils import Message, Role
+from .utils import Message, Role
 
 _DEFAULT_MODEL_PATH = "./"
 

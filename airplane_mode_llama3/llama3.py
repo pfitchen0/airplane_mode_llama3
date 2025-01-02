@@ -1,8 +1,8 @@
 from enum import Enum
 
-from model import Model
-from tokenizer import Tokenizer
-from utils import Message
+from .model import Model
+from .tokenizer import Tokenizer
+from .utils import Message
 
 
 # These are models I've tested, but feel free to add other Llama3-based huggingface models.

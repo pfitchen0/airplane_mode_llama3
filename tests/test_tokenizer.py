@@ -1,7 +1,6 @@
 import unittest
 
-from tokenizer import Tokenizer
-from utils import Message
+from airplane_mode_llama3 import Tokenizer, Message
 
 
 class TestTokenizer(unittest.TestCase):

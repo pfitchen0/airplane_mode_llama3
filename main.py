@@ -1,13 +1,10 @@
 import mesop as me
 
-from groq_wrapper import GroqModels, GroqWrapper
-from gui import chat
-from llama3 import Llama3Models, Llama3
-from utils import Message
+from airplane_mode_llama3 import GroqModels, GroqWrapper, Llama3Models, Llama3, Message, chat
 
 
 _GROQ_MODEL = GroqModels.LLAMA3_3_70B_VERSATILE
-_LOCAL_MODEL = Llama3Models.LLAMA3_2_3B
+_LOCAL_MODEL = Llama3Models.LLAMA3_2_1B
 _TEMPERATURE = 0.8
 _MAX_TOKENS = None
 

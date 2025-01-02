@@ -3,7 +3,7 @@ import mlx.nn as nn
 import unittest
 
 
-from model import (
+from airplane_mode_llama3.model import (
     Attention,
     Config,
     Mlp,

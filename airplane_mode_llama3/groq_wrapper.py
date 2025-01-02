@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from groq import Groq
 import os
 
-from utils import Message
+from .utils import Message
 
 load_dotenv()
 

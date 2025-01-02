@@ -1,10 +1,10 @@
 # Airplane Mode Llama3
 
-Simple [mesop](https://google.github.io/mesop/) chat GUI app to run Llama3 blazingly fast in the cloud using [Groq](https://console.groq.com/docs/overview), or locally using Apple's [MLX](https://ml-explore.github.io/mlx/build/html/index.html) framework. Unfortunately, the local Llama3 implementation only runs well on a Mac - but one could easily rewrite the `model.py` file in PyTorch or some other framework (Jax, TensorFlow, etc...).
+Simple [mesop](https://google.github.io/mesop/) chat GUI app to run Llama3 blazingly fast in the cloud using [Groq](https://console.groq.com/docs/overview), or locally using Apple's [MLX](https://ml-explore.github.io/mlx/build/html/index.html) framework. As a result, the local Llama3 implementation only runs well on a Mac - but one could easily rewrite the `model.py` file in PyTorch or some other framework (Jax, TensorFlow, etc...).
 
 Both the Llama3 model and tokenizer are implemented from scratch, just for fun and to show what's going on under the hood. As a result, this is probably not the most performant local implementation of Llama3 :).
 
-The `tokenizer.py` file borrows quite a lot from the official tiktoken [`_educational.py`](https://github.com/openai/tiktoken/blob/main/tiktoken/_educational.py) implementation and Andrej Karpathy's minbpe [`regex.py`](https://github.com/karpathy/minbpe/blob/master/minbpe/regex.py) tokenizer. Credit goes to those authors!
+Also, the `tokenizer.py` file borrows quite a lot from the official tiktoken [`_educational.py`](https://github.com/openai/tiktoken/blob/main/tiktoken/_educational.py) implementation and Andrej Karpathy's minbpe [`regex.py`](https://github.com/karpathy/minbpe/blob/master/minbpe/regex.py) tokenizer. Credit goes to those authors!
 
 ## Prerequisites
 
